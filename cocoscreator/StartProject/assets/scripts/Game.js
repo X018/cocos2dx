@@ -104,7 +104,7 @@ cc.Class({
     gameOver: function() {
         // 停止player节点的跳跃动作
         this.player.stopAllActions();
-        cc.director.loadScene("game");
+        cc.director.loadScene("gameover");
     }
     
 });
